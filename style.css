@@ -173,3 +173,148 @@ body {
   font-size: 0.95rem;
   color: #575757;
 }
+/* Pricing section css */
+.pricing-section {
+  padding: 100px 8%;
+  background-color: #ffffff;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #575757;
+  margin-top: -45px;
+  margin-bottom: 60px;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 40px 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card.team-card {
+  background-color: #f8fafc;
+}
+
+.pricing-card.pro-card {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  border-color: #0d1b2a;
+}
+
+.plan-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #888888;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.plan-name-pro {
+  color: #60a5fa;
+}
+
+.plan-price {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: #111827;
+}
+
+.pro-card .plan-price {
+  color: #ffffff;
+}
+
+.plan-text-after-price {
+  font-size: 1rem;
+  color: #888888;
+}
+
+.plan-card-hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 30px 0;
+}
+
+.plan-card-hr-dark {
+  border-top-color: #1e293b;
+}
+
+.plan-features {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 40px;
+  flex-grow: 1;
+}
+
+.plan-features li {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+.plan-features li::marker {
+  color: #2563eb;
+}
+
+.pro-card .plan-features li {
+  color: #ffffff;
+}
+
+.pro-card .plan-features li::marker {
+  color: #60a5fa;
+}
+
+.pricing-btn {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+.pricing-btn-standard {
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.pricing-btn-standard:hover {
+  background-color: #eff6ff;
+}
+
+.pricing-btn-pro {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+}
+
+.pricing-btn-pro:hover {
+  background-color: #1d4ed8;
+}
+
+.pricing-btn-team {
+  background-color: transparent;
+  color: #111827;
+  border: 1px solid #9ca3af;
+}
+
+.pricing-btn-team:hover {
+  background-color: #f3f4f6;
+}
