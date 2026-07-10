@@ -56,3 +56,53 @@ body {
 .register-btn:hover {
   background-color: #1d4ed8;
 }
+
+/* hero css */
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('./assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 140px 20px 100px;
+  min-height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.05em;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.register-btn-hero {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 18px 56px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register-btn-hero:hover {
+  background-color: #1d4ed8;
+}
